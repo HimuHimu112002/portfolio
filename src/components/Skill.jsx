@@ -9,7 +9,6 @@ return (
         <div className='know_heading my-5'>
           <h3>MY BEST SKILLS</h3> 
         </div>
-        <Zoom delay={1e1} cascade damping={1e-1}>
           <Row>
             <Col sm={6} md={4}>
               <div className='know_items'>BOOTSTRAP</div>
@@ -87,7 +86,6 @@ return (
               <div className='know_items'>VUE.JS</div>
             </Col>
           </Row>
-        </Zoom>
       </div>
     </Container>
   </>
