@@ -1,16 +1,6 @@
-import react, { useEffect } from 'react';
 import { Col, Container, Row,Button } from 'react-bootstrap'
-import AOS from 'aos';
 import { Link } from 'react-router-dom';
 const Banner = () => {
-
-    useEffect(()=>{
-        AOS.init({
-            duration: 1000,
-            easing: 'ease-in-sine',
-          });
-      },[])
-
     const onButtonClick = () => {
         fetch('ReactCV.pdf').then(response => {
             response.blob().then(blob => {
@@ -25,7 +15,7 @@ const Banner = () => {
 return (
     <>
         <div className='bg_img'>
-            <Container data-aos="fade-right" >
+            <Container>
                 <Row>
                     <Col sm={10} md={10} lg={7} className='m-auto'>
 

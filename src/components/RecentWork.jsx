@@ -1,7 +1,7 @@
+import {useState } from 'react';
 import { Col, Container, Row } from "react-bootstrap"
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import { useEffect, useState } from 'react';
 import Backend from "./Backend";
 import React from "./React";
 import Frontend from "./Frontend";
@@ -9,8 +9,8 @@ import Strapi from "./Strapi";
 import Nextjs from "./Nextjs";
 
 const RecentWork = () => {
-
     const [key, setKey] = useState('FRONTEND');
+
 return (
 
    <Container className="py-5" id="project">

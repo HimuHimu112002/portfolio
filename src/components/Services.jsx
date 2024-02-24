@@ -1,16 +1,5 @@
-import { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap"
-import AOS from 'aos';
-
 const Services = () => {
-
-    useEffect(()=>{
-        AOS.init({
-            duration: 1000,
-            easing: 'ease-in-sine',
-          });
-      },[])
-
     let frontendDesign = "Frontend design refers to the process of creating the user interface (UI) and user experience (UX) of a website or web application. It involves designing and structuring the visual elements and interactive components that users see and interact with within their web browsers. Frontend design is a crucial aspect of web development because it directly impacts how users perceive and interact with a website or application."
 
     let reactJs = "Frontend Development with React.JS is a term that encompasses the practice of using JavaScript as the primary programming language for building and enhancing the user interface (UI) and user experience (UX) web applications. JavaScript is a versatile powerful programming language commonly used for front-end development because it allows developers to create dynamic and web content."
@@ -23,7 +12,7 @@ const Services = () => {
     let eCommerce = 'eCommerce web application offers numerous benefits for businesses looking to sell products or services online. eCommerce platforms have become increasingly popular in recent years due to their ability to reach a global audience and streamline the buying and selling process. eCommerce web can reach customers worldwide businesses to expand their customer base beyond geographical boundaries'
 
   return (
-    <Container data-aos="fade-left" className="py-5">
+    <Container className="py-5">
         <Row>
             <div className='py-5 know_heading'>
                 <h2>MY BEST SERVICES</h2> 

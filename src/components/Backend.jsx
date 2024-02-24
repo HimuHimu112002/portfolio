@@ -2,7 +2,6 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { FiLink2 } from 'react-icons/fi';
 
 const Backend = () => {
-
 return (
     <Container>
         <Row>

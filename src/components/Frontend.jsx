@@ -4,7 +4,6 @@ const Frontend = () => {
   return (
     <Container>
         <Row>
-
             <Col sm={10} md={6} lg={4} className='m-auto mb-3'>
                 <div className='p-2 shadow-sm rounded-1 project__img--section'>
                     <img className='img-fluid' src='image/innovate.png'/>
