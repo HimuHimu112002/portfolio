@@ -1,0 +1,360 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #252525 !important;
+
+}
+
+a{
+  font-size: 16px !important;
+  font-weight: 400;
+  color: #2FF093 !important;
+  margin-right: 30px;
+  text-decoration: none !important;
+  transition: .2s all ease-in-out;
+}
+
+a:hover{
+  color: white !important;
+}
+
+ul{
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+/* Menu desigin =========================== */
+
+.menu_contact--button, .banner--button1, .banner--button2{
+  background-color: #2FF093 !important;
+  color: #1D1C22 !important;
+  border: none !important;
+  border-radius: 5px !important;
+}
+
+.menu_dark--button{
+  background: none !important;
+  border: none !important;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.menu_dark--button span{
+  font-size: 30px;
+}
+
+nav{
+  position: fixed !important;
+  width: 100% !important;
+  top: 0%;
+  left: 50% !important;
+  transform: translateX(-50%);
+  z-index: 1;
+  background-color: black;
+
+}
+
+.h1{
+  position: absolute;
+}
+
+.navbar-toggler, .navbar-toggler collapsed{
+  background-color: #2FF093 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* ================= menu design end ================== */
+
+
+/* ================= banner design start ================== */
+
+.banner_heading, .know_heading, .about_heading{
+  display: flex;
+  justify-content: center;
+}
+
+.banner_heading h3, .about_heading h3, .know_heading h2, .know_heading h6{
+  font-weight: 600;
+  color: #2FF093;
+}
+
+.banner_heading--name, .banner_heading--sub{
+  color: #2FF093;
+  font-weight: 700;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.banner_heading--sub{
+  font-size: 52px;
+}
+
+.banner_heading--name span, .banner_heading--sub span{
+  color: white;
+}
+
+.banner_subHeading{
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+}
+
+.banner_left{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner--button1, .banner--button2, .modal-footer button{
+  padding: 10px 20px !important;
+  border-radius: 50px !important;
+}
+
+.banner--button2{
+  margin-left: 10px !important;
+}
+
+.banner_img--border{
+  border: 3px solid #2FF093;
+  width: 70%;
+  height: 100%;
+}
+
+.banenr_img__inner--border{
+  width: 100%;
+  height: 100%;
+  border: 3px solid #2FF093;
+  margin-left: 13px;
+  margin-top: 10px;
+}
+
+.banenr_img__inner--border img{
+  width: 100%;
+  height: 100%;
+}
+
+.bg_img{
+  background-image: url('../public/image/ba.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mern_logo_section{
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.mern_logo_main{
+  width: 70px;
+  height: 70px;
+  border: 2px solid #2FF093;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mern_logo img{
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+/* ================= banner design end ================== */
+
+/* about section start ==============================*/
+
+.about_heading h1{
+  color: #2FF093;
+}
+
+.signature_img{
+  width: 15%;
+  margin: 0 auto;
+  background-color: #2FF093;
+}
+
+/* about section end ==============================*/
+
+/* what i know ==================================== */
+
+.know_heading h3{
+  color: #2FF093;
+}
+
+.know_items{
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+  padding: 5px 0px;
+  border: 1px solid rgb(226, 225, 225);
+  border-image: linear-gradient(45deg, purple, orange) 1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* what i know ==================================== */
+
+/* Service section start =========================== */
+
+.service_main-section{
+  cursor: pointer;
+  transition: .4s all ease-in-out;
+  background-color: #000000;
+}
+
+.service_main-section:hover{
+  cursor: pointer;
+  transform: translateY(-15px);
+  background-color: #2FF093;
+}
+
+.service_main-content h5, .service_main-content p{
+  font-size: 25px;
+  color: #2FF093;
+  font-weight: 600;
+  transition: .4s all ease-in-out;
+}
+
+.service_main-section:hover .service_main-content h5, .service_main-content p{
+  color: #000000;
+}
+.service_main-section:hover .service_main-content p{
+  color: #000000;
+}
+
+.service_main-content p, .qualityDiscription{
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+.serviceDiscription{
+  text-align: justify;
+}
+
+/* Service section end =========================== */
+
+/* project Tab section =========================== */
+
+.nav-tabs{
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.nav-item button{
+  font-size: 18px;
+  padding: 10px 30px !important;
+
+}
+
+.nav-item .nav-link{
+  color: white !important;
+  font-weight: 400;
+}
+
+.nav-item .nav-link:focus{
+  color: #2FF093 !important;
+}
+
+.nav-tabs .nav-link.active {
+  background: transparent !important;
+  color: #2FF093 !important;
+}
+
+.tab_section{
+  padding-bottom: 50px;
+}
+
+.Project_main{
+  overflow-y: scroll;
+  height: 300px;
+}
+
+.project__img--section{
+  background-color: #2FF093;
+}
+
+.project__img--section img{
+  width: 100%;
+  height: 270px;
+  object-fit:cover;
+}
+
+.projent_position-section{
+  text-align: center;
+  margin-top: 15px;
+}
+
+.g{
+  display: flex;
+  justify-content: space-between;
+}
+
+.project_link a{
+  color: black !important;
+  font-size: 30px !important;
+}
+
+/* project Tab section end =========================== */
+
+
+/* contact section =========================== */
+
+.contact_info{
+  color: #2FF093;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-control{
+  box-shadow: none !important;
+  border: none !important;
+  border: 1px solid #2FF093 !important;
+}
+.contact_main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact_bg{
+  background-color: #000000;
+  
+}
+
+.contact_icon{
+  display: flex;
+}
+
+.contact_icon p{
+  margin-left: 5px;
+  margin-top: -4px;
+}
+
+.scroll-to-top {
+  background-color: #2FF093 !important;
+}
+
+.canvas{
+  background-color: #2FF093 !important;
+}
+
+/* contact section end =========================== */

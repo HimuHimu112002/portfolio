@@ -1,0 +1,145 @@
+@media(min-width:320px) and (max-width:575px){
+    .banner_heading h3{
+        font-size: 27px;
+        margin-top: 10px;
+    }
+    .service_main-content p{
+        font-size: 10px;
+        text-align: justify;
+    }
+    .banner_heading--sub{
+        font-size: 27px;
+    }
+    .banner_button--div{
+        margin-top: 0px;
+    }
+    .banner_button--div{
+        display: flex;
+        justify-content: center;
+    }
+    .banner--button1{
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 15px !important;
+    }
+    .banner--button2{
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 15px !important;
+    }
+    .about_heading h3{
+        font-size: 25px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .banner_img--border{
+        display: none;
+    }
+    .know_heading h3{
+        font-size: 29px;
+        margin-top: 10px;
+    }
+
+    .mern_logo_section{
+        width: auto;
+    }
+    .contact_info{
+        flex-direction: column;
+    }
+    .contact_main{
+        margin-top: 250px;
+    }
+    .email{
+        font-size: 12px;
+    }
+
+}
+@media(min-width:576px) and (max-width:667px){
+    .contact_info{
+        flex-direction: column;
+    }
+    .contact_main{
+        margin-top: 200px;
+    }
+    .banner_heading--name{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .banner_heading--sub{
+        font-size: 29px;
+    }
+    .banner_button--div{
+        margin-top: 0px;
+    }
+    .banner_button--div{
+        display: flex;
+        justify-content: center;
+    }
+    .banner--button1{
+        padding: 8px 20px;
+        border-radius: 5px;
+        font-size: 8px !important;
+    }
+    .banner--button2{
+        padding: 8px 20px;
+        border-radius: 5px;
+        font-size: 8px !important;
+    }
+    .about_heading h3{
+        font-size: 35px;
+        text-align: center;
+    }
+    .service_main-content p{
+        font-size: 14px;
+        text-align: justify;
+    }
+
+}
+@media(min-width:668px) and (max-width:991px){
+    .banner_img--border{
+        display: none;
+    }
+    .banner_left{
+        margin-top: 160px;
+    }
+    .banner_heading--name{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .service_main-content p{
+        font-size: 10px;
+        text-align: left;
+    }
+    .service_main-content h5{
+        font-size: 13px;
+        text-align: left;
+    }
+    .banner_heading--sub{
+        font-size: 29px;
+    }
+    .banner_button--div{
+        margin-top: 0px;
+    }
+    .banner_button--div{
+        display: flex;
+        justify-content: center;
+    }
+    .banner--button1{
+        padding: 8px 20px;
+        border-radius: 5px;
+        font-size: 8px !important;
+    }
+    .banner--button2{
+        padding: 8px 20px;
+        border-radius: 5px;
+        font-size: 8px !important;
+    }
+    .know_heading h3{
+        font-size: 32px;
+        margin-top: 10px;
+    }
+    .contact_main{
+        margin-top: 270px;
+    }
+    
+}
